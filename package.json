@@ -5,7 +5,7 @@
   "homepage": "https://c294huan.github.io/superlatives/",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run dev",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "dev": "vite",
